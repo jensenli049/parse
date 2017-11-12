@@ -22,7 +22,7 @@ int main(){
 }
 
 char ** parse_args( char * line ){
-  char ** retval = malloc(32*sizeof(char*));
+  char ** retval = malloc(50*sizeof(char*));
   int i = 0;
 
   if(!strchr(line,' ')){
